@@ -13,15 +13,21 @@
   <div v-bind="objectAttrs">测试属性绑定2</div> -->
 
   <!-- 条件渲染 -->
-  <ifDemo />
+  <!-- <ifDemo />
   <ListDemo/>
-  <EventDemo1/>
+  <EventDemo1/> -->
+  <!-- <EventDemo2/> -->
+  <!-- <EventDemo3/> -->
+  <EventDemo4/>
 </template>
 
 <script setup>
-// import ifDemo from "./components/ifDemo.vue"
-// import ListDemo  from "./components/ListDemo.vue"
+import ifDemo from "./components/ifDemo.vue"
+import ListDemo  from "./components/ListDemo.vue"
 import EventDemo1 from "./components/EventDemo1.vue"
+import EventDemo2 from "./components/EventDemo2.vue"
+import EventDemo3 from "./components/EventDemo3.vue"
+import EventDemo4 from "./components/EventDemo4.vue"
 // export default{
 //   // 文本插值的语法
 //   // data(){
