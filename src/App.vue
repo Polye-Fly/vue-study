@@ -19,7 +19,15 @@
   <!-- <EventDemo2/> -->
   <!-- <EventDemo3/> -->
   <!-- <EventDemo4/> -->
-  <EventDemo5/>  
+  <!-- <EventDemo5/>   -->
+  <!-- <ArrayList/> -->
+  <!-- <ComputeDemo/> -->
+  <!-- <ClassDemo/> -->
+  <!-- <StyleDemo/> -->
+  <!-- <WatchDemp/> -->
+  <!-- <ModelDemo/> -->
+  <RefDemo/>
+
 </template>
 
 <script setup>
@@ -30,6 +38,13 @@ import EventDemo2 from "./components/EventDemo2.vue"
 import EventDemo3 from "./components/EventDemo3.vue"
 import EventDemo4 from "./components/EventDemo4.vue"
 import EventDemo5 from "./components/EventDemo5.vue"
+import ArrayList from "./components/ArrayList.vue"
+import ComputeDemo from "./components/ComputeDemo.vue"
+import ClassDemo from "./components/ClassDemo.vue"
+import StyleDemo from "./components/StyleDemo.vue"
+import WatchDemp from "./components/WatchDemp.vue"
+import ModelDemo from "./components/ModelDemo.vue"
+import RefDemo from "./components/RefDemo.vue"
 // export default{
 //   // 文本插值的语法
 //   // data(){
@@ -59,7 +74,8 @@ import EventDemo5 from "./components/EventDemo5.vue"
 // }
 </script>
 
-<style>
+<!-- scoped 让当前样式只在当前组件生效 -->
+<style scoped>
 </style>
 
 
